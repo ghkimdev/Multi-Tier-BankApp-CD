@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: bankapp
-        image: ghkimdev/bankapp:latest
+        image: ghkimdev/bankapp:v5
         ports:
         - containerPort: 8080
         env:
